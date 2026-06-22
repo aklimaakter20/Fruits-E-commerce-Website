@@ -2,6 +2,18 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+section{
+    margin: 40px 0;
+}
+.section-title{
+    margin: 60px 0;
+}
+.section-title h2{
+    text-shadow: 1px 1px 2px #444;
+}
+a{
+    text-decoration: none;
+}
 /* header-section */
 header{
     nav{
@@ -71,3 +83,31 @@ header{
         object-fit: contain;
     }
 }
+/* category-products-section */
+    section.category-product{
+        padding: 55px 0px;
+        .card{
+            background: #f3f2f2;
+            overflow: hidden;
+        }
+        .card-body{
+            text-align: center;
+            img{
+                transition: .6s ease-in-out;
+                height: 120px;
+                object-fit: contain;
+            }
+            h4{
+                font-size: 25px;
+                text-shadow: 1px 1px 1px #4444;
+            }
+            .view-all-btn{
+                font-size: 14px;
+            }
+        }
+        &:hover{
+            .card-body img{
+                transform: scale(1.2);
+            }
+        }
+    }
