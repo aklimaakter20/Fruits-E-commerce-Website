@@ -13,6 +13,10 @@ section{
 }
 a{
     text-decoration: none;
+    color: #444;
+}
+li{
+    list-style: none;
 }
 /* header-section */
 header{
@@ -169,4 +173,22 @@ header{
             color: #198754;
             
         }
-    
+    /* Footer-section */
+    Footer{
+        .footer-logo{
+            width: 120px;
+            margin: 15px 0;
+        }
+         ul li{
+            padding: 5px;
+            
+         }
+        a{
+            transition: .6s;
+            
+        }
+        a:hover{
+            color: #0f5132;
+            padding-left: 7px ;
+        }
+    }
