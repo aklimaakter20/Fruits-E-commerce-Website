@@ -128,3 +128,24 @@ header{
             height: 180px;
         }
     }
+    /* Made For You section */
+    .Made-for-you{
+        .card{
+            height: 400px;
+        }
+       
+        h5{
+            font-size: 15px;
+        }
+        .star-icon i{
+        color: #ff7400;
+    }
+    .view-all-btn{
+        font-size: 14px;
+        border: 1px solid green;
+        transition: 06s ease;
+      
+    }
+   
+    }
+    
