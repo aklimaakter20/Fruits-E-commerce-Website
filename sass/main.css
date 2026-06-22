@@ -34,3 +34,40 @@ header{
         }
     }
 }
+/* Slider-section */
+.slider{
+    background: #f7f7f7;
+    height: 80vh;
+    padding-top: 70px;
+    .slider-text{
+        h2{
+            font-size: 68px;
+            font-weight: 600;
+            span.lighten{
+                color: var(--bs-orange);
+            }
+        }
+    }
+    p{
+        font-size: 16px;
+        color: #cccccc;
+    }
+    
+    .btn-order-now{
+        
+        text-decoration: none;
+        background: orange;
+        padding: 10px 40px;
+        border-radius: 50px;
+        color: #ff7400;
+        font-size: 18px;
+        transition: 1s;
+        &:hover{
+            box-shadow: 2px 5px 5px rgba(255, 153 , 68  , 0.51) ;                                                                        
+        }
+    }
+    .slider-img img{
+        height: 400px;
+        object-fit: contain;
+    }
+}
