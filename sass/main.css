@@ -111,3 +111,20 @@ header{
             }
         }
     }
+    /* Banner-section */
+    section.banner{
+        padding: 20px 0px;
+        .item{
+            background-color: #cccccc;
+            padding: 30px;
+            h2{
+                font-size: 36px;
+                line-height: 50px;
+                text-shadow: 1px 1px 1px #444;
+            }
+        }
+        img{
+            object-fit: cover;
+            height: 180px;
+        }
+    }
